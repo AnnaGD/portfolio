@@ -1,3 +1,10 @@
+To run this locally:
+```sh
+docker run -it --rm  --name foobar -p 3000:3000 -v `pwd`:/code --workdir /code python:3.9 python -m http.server 3000
+```
+
+Big thanks to:
+
 Solid State by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
